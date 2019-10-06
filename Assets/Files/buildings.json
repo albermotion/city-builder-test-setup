@@ -1,0 +1,56 @@
+[
+    {
+        "id": "residence",
+        "cost": {
+            "gold": 100
+        },
+        "production": {
+            "quantity": {
+                "gold": 100
+            },
+            "time": 10
+        },
+        "requiresUserInteraction": false
+    },
+    {
+        "id": "woodproduction",
+        "cost": {
+            "gold": 150
+        },
+        "production": {
+            "quantity": {
+                "wood": 50
+            },
+            "time": 10
+        },
+        "requiresUserInteraction": true
+    },
+    {
+        "id": "steelproduction",
+        "cost": {
+            "gold": 150,
+            "wood": 100
+        },
+        "production": {
+            "quantity": {
+                "steel": 50
+            },
+            "time": 10
+        },
+        "requiresUserInteraction": true
+    },
+    {
+        "id": "bench",
+        "cost": {
+            "gold": 150,
+            "steel": 50
+        }
+    },
+    {
+        "id": "tree",
+        "cost": {
+            "gold": 50,
+            "wood": 200
+        }
+    }
+]

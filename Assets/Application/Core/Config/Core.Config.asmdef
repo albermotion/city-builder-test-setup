@@ -1,0 +1,21 @@
+{
+    "name": "Core.Config",
+    "references": [
+        "Zenject",
+        "Grogshot.Localization",
+        "Grogshot.Logger",
+        "Grogshot.Serialization",
+        "Grogshot.Signals",
+        "Core.DataModels",
+        "Core.StateMachine",
+        "Core.Game"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

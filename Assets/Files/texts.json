@@ -1,0 +1,28 @@
+{
+    "availableCultures": [
+        "en-US",
+        "es-ES"
+    ],
+    "defaultCulture": "en-US",
+    "textGroups": [
+        {
+            "id": "test",
+            "texts": [
+                {
+                    "id": "test_phrase",
+                    "text": {
+                        "en-US": "Test",
+                        "es-ES": "Prueba"
+                    }
+                },
+                {
+                    "id": "loading",
+                    "text": {
+                        "en-US": "Loading",
+                        "es-ES": "Cargando"
+                    }
+                }
+            ]
+        }
+    ]
+}
