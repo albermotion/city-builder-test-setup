@@ -1,0 +1,17 @@
+{
+    "name": "Application.Views",
+    "references": [
+        "DOTween.Modules",
+        "Grogshot.Signals",
+        "Core.StateMachine",
+        "Core.Game"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

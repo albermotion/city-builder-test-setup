@@ -1,0 +1,15 @@
+{
+    "name": "Core.Signals",
+    "references": [
+        "Grogshot.Signals",
+        "Core.DataModels"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

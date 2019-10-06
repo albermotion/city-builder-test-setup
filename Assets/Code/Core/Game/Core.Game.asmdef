@@ -1,0 +1,17 @@
+{
+    "name": "Core.Game",
+    "references": [
+        "Grogshot.Signals",
+        "Core.StateMachine",
+        "Core.DataModels",
+        "Core.Signals"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

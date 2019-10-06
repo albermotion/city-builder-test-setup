@@ -1,0 +1,20 @@
+{
+    "name": "Application.UI",
+    "references": [
+        "Zenject",
+        "Unity.TextMeshPro",
+        "Grogshot.Signals",
+        "Grogshot.Localization",
+        "Core.Signals",
+        "Core.Game",
+        "Core.DataModels"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

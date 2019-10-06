@@ -6,20 +6,27 @@
     "defaultCulture": "en-US",
     "textGroups": [
         {
-            "id": "test",
+            "id": "ui",
             "texts": [
                 {
-                    "id": "test_phrase",
+                    "id": "regularGameMode",
                     "text": {
-                        "en-US": "Test",
-                        "es-ES": "Prueba"
+                        "en-US": "Regular Mode",
+                        "es-ES": "Modo Normal"
                     }
                 },
                 {
-                    "id": "loading",
+                    "id": "buildGameMode",
                     "text": {
-                        "en-US": "Loading",
-                        "es-ES": "Cargando"
+                        "en-US": "Build Mode",
+                        "es-ES": "Modo Construcción"
+                    }
+                },
+                {
+                    "id": "switchGameMode",
+                    "text": {
+                        "en-US": "Switch Mode",
+                        "es-ES": "Cambiar Modo"
                     }
                 }
             ]
