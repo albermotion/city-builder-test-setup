@@ -1,9 +1,10 @@
 {
-    "name": "Presenters.Utils",
+    "name": "Core.Entities",
     "references": [
-        "Zenject",
-        "Unity.TextMeshPro",
-        "Grogshot.Localization"
+        "Grogshot.Utils",
+        "Grogshot.Signals",
+        "Core.DataModels",
+        "Core.Signals"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

@@ -17,14 +17,14 @@ public class BuildingsDataTest : ZenjectUnitTestFixture {
     public override void Setup() {
         base.Setup();
         CoreInstaller.Install(Container);
-        Container.Bind<BuildingData>()
-            .FromResolveGetter<ISerializer>(f => f.Deserialize<BuildingData>($"{Application.dataPath}/Files/buildings.json"))
+        Container.Bind<BuildingsData>()
+            .FromResolveGetter<ISerializer>(f => f.Deserialize<BuildingsData>($"{Application.dataPath}/Files/buildings.json"))
             .AsSingle();
         Container.Inject(this);
     }
 
-    private BuildingData LoadBuildingsData() {
-        BuildingData buildingData = serializer.Deserialize<BuildingData>($"{Application.dataPath}/Files/buildings.json");
+    private BuildingsData LoadBuildingsData() {
+        BuildingsData buildingData = serializer.Deserialize<BuildingsData>($"{Application.dataPath}/Files/buildings.json");
         Assert.IsNotNull(buildingData);
 
         foreach (var building in buildingData) {

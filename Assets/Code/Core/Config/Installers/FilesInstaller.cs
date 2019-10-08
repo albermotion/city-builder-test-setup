@@ -15,8 +15,8 @@ public class FilesInstaller : MonoInstaller<FilesInstaller> {
         Container.Bind<LocalizationDataStructure>()
             .FromResolveGetter<ISerializer>(f => f.Deserialize<LocalizationDataStructure>(localizedTexts))
             .AsSingle();
-        Container.Bind<BuildingData>()
-            .FromResolveGetter<ISerializer>(f => f.Deserialize<BuildingData>(buildings))
+        Container.Bind<BuildingsData>()
+            .FromResolveGetter<ISerializer>(f => f.Deserialize<BuildingsData>(buildings))
             .AsSingle();
     }
 }

@@ -7,7 +7,9 @@
         "Grogshot.Localization",
         "Core.Signals",
         "Core.Game",
-        "Core.DataModels"
+        "Core.DataModels",
+        "Core.Entities",
+        "Application.Entities"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

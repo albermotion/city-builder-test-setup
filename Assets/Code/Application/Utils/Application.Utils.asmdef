@@ -1,0 +1,16 @@
+{
+    "name": "Application.Utils",
+    "references": [
+        "Zenject",
+        "Unity.TextMeshPro",
+        "Grogshot.Localization"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Application.Entities",
+    "references": [
+        "Grogshot.Logger",
+        "Grogshot.Utils",
+        "Core.DataModels",
+        "Core.Entities"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

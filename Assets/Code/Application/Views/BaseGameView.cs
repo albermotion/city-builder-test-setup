@@ -1,13 +1,17 @@
 ﻿using CityBuilder.Core.StateMachine;
 using FSM;
+using Grogshot.Signals;
 using UnityEngine;
 using Zenject;
 
 namespace CityBuilder.Application.Views {
     public abstract class BaseGameView<T> : MonoBehaviour, IStateReceiver where T : BaseState {
 
+        protected ISignalBus signalBus;
+
         [Inject]
-        public void Construct(T state) {
+        public void Construct(T state, ISignalBus signalBus) {
+            this.signalBus = signalBus;
             State = state;
             State.OnStateEnter += OnStateEnter;
             State.OnStateExit += OnStateExit;

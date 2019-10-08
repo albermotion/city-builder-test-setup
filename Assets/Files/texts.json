@@ -28,6 +28,60 @@
                         "en-US": "Switch Mode",
                         "es-ES": "Cambiar Modo"
                     }
+                },
+                {
+                    "id": "production",
+                    "text": {
+                        "en-US": "Production",
+                        "es-ES": "Producción"
+                    }
+                },
+                {
+                    "id": "cost",
+                    "text": {
+                        "en-US": "Cost",
+                        "es-ES": "Coste"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "buildings",
+            "texts": [
+                {
+                    "id": "residence",
+                    "text": {
+                        "en-US": "Residence",
+                        "es-ES": "Residencia"
+                    }
+                },
+                {
+                    "id": "woodproduction",
+                    "text": {
+                        "en-US": "Wood Production",
+                        "es-ES": "Producción de madera"
+                    }
+                },
+                {
+                    "id": "steelproduction",
+                    "text": {
+                        "en-US": "Steel Production",
+                        "es-ES": "Producción de metal"
+                    }
+                },
+                {
+                    "id": "bench",
+                    "text": {
+                        "en-US": "Bench",
+                        "es-ES": "Banco"
+                    }
+                },
+                {
+                    "id": "tree",
+                    "text": {
+                        "en-US": "Tree",
+                        "es-ES": "Árbol"
+                    }
                 }
             ]
         }

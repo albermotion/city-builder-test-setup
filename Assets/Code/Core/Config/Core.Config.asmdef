@@ -6,9 +6,11 @@
         "Grogshot.Logger",
         "Grogshot.Serialization",
         "Grogshot.Signals",
+        "Grogshot.Utils",
         "Core.DataModels",
         "Core.StateMachine",
-        "Core.Game"
+        "Core.Game",
+        "Core.Entities"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

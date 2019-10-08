@@ -8,9 +8,13 @@ public class LocalizableText : MonoBehaviour {
 
     [SerializeField]
     private string localizationId;
+    [SerializeField]
+    private string preffix;
+    [SerializeField]
+    private string suffix;
 
     [Inject]
     private void Construct(ILocalizationService localizationService) {
-        GetComponent<TextMeshProUGUI>().text = localizationService[localizationId];
+        GetComponent<TextMeshProUGUI>().text = $"{preffix}{localizationService[localizationId]}{suffix}";
     }
 }

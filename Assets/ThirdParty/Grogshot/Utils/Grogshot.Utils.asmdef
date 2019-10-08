@@ -1,6 +1,7 @@
 {
     "name": "Grogshot.Utils",
     "references": [
+        "Zenject",
         "Grogshot.Async"
     ],
     "optionalUnityReferences": [],

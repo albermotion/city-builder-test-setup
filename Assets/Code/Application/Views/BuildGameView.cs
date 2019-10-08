@@ -1,5 +1,4 @@
 ﻿using CityBuilder.Core.Game;
-using CityBuilder.Core.StateMachine;
 using DG.Tweening;
 using UnityEngine;
 
